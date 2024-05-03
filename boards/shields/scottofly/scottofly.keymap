@@ -20,8 +20,8 @@
             bindings = <
             &kp Q       &kp W   &kp E       &kp R       &kp T               &kp Y   &kp U   &kp I     &kp O   &kp P   
             &kp A       &kp S   &kp D       &kp F       &kp G               &kp H   &kp J   &kp K     &kp L   &kp BSPC
-            &mt LSHFT Z   &kp X   &kp C       &kp V       &kp B               &kp N   &kp M   &kp COMMA &kp DOT &mt RSHFT FSLH
-                                &kp LCTRL    &kp LALT    &kp LGUI(SPACE)    &lt SECOND TAB  &lt THIRD ENTER  &kp ESC
+            &mt LSHFT Z   &kp X   &kp C       &kp V      &kp B               &kp N   &kp M   &kp COMMA &kp DOT &mt RSHFT FSLH
+                                &kp LCTRL    &kp LALT    &mt LGUI SPACE    &lt SECOND TAB  &lt THIRD ENTER  &kp ESC
             >;
 
         };
@@ -60,10 +60,10 @@
 // |   F11   |  _____  |  _____  |  boot   |  _____  |          |  _____  |  _____  |  _____  |  _____  |   F12   |
 //                     |  _____  |  _____  |  _____  |          |  _____  |  _____  |  _____  |
             bindings = <
-            &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3        &bt BT_SEL 4        &bt BT_CLR  &none   &none   &none   &none   
-            &kp F1          &kp F2          &kp F3          &kp F4              &kp F5              &kp F6      &kp F7  &kp F8  &kp F9  &kp F10
-            &kp F11         &none           &none           &bootloader         &none               &none       &none   &none   &none   &kp F12
-                                            &none           &none               &none               &none       &none   &none
+            &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3    &bt BT_SEL 4        &bt BT_CLR  &none   &none   &none   &none   
+            &kp F1          &kp F2          &kp F3          &kp F4          &kp F5              &kp F6      &kp F7  &kp F8  &kp F9  &kp F10
+            &kp F11         &none           &none           &bootloader     &none               &none       &none   &none   &none   &kp F12
+                                            &none           &none           &none               &none       &none   &none
             >;
 
         };
