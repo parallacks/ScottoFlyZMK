@@ -141,7 +141,7 @@
         windows_function_layer {
             bindings =<
                 &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2        &bt BT_SEL 3      &bt BT_SEL 4      &none      &none       &none                  &none       &to MAC
-                &kp F1          &kp F2            &kp F3            &kp F4            &kp F5            &kp 6      &kp F7      &kp F8                 &kp F9      &kp F10
+                &kp F1          &kp F2            &kp F3            &kp F4            &kp F5            &kp F6      &kp F7      &kp F8                 &kp F9      &kp F10
                 &kp F11         &none             &bt BT_CLR        &bootloader       &none             &none      &none       &none                  &none       &kp F12
                                                   &trans            &trans            &trans            &trans     &trans      &trans      
             >;
@@ -177,7 +177,7 @@
         mac_function_layer {
             bindings =<
                 &bt BT_SEL 0    &bt BT_SEL 1      &bt BT_SEL 2      &bt BT_SEL 3      &bt BT_SEL 4        &none      &none       &none              &none       &to WIN
-                &kp F1          &kp F2            &kp F3            &kp F4            &kp F5              &kp 6      &kp F7      &kp F8             &kp F9      &kp F10
+                &kp F1          &kp F2            &kp F3            &kp F4            &kp F5              &kp F6      &kp F7      &kp F8             &kp F9      &kp F10
                 &kp F11         &none             &bt BT_CLR        &bootloader       &none               &none      &none       &none              &none       &kp F12
                                                   &kp LCTRL         &kp LALT          &sm LGUI SPACE      &none      &none       &td_multi_mac      
             >;
